@@ -9,7 +9,7 @@ fastqc report helps us quality check the files we are about to analyze, and help
 content which needs to be trimmed etc.<br>
 `fastqc filename`<br>
 ## multiqc
-multiqc is used to simplify the fastqc report and print all the fastqc reports at once ie gives a summary of fastqc reports at once.
+multiqc is used to simplify the fastqc report and print all the fastqc reports at once ie gives a summary of fastqc reports at once.<br>
 `multiqc .`<br>
 >multiqc needs to be installed.<br>
 ## trimming
