@@ -10,12 +10,12 @@ content which needs to be trimmed etc.<br>
 `fastqc filename`<br>
 ## multiqc
 multiqc is used to simplify the fastqc report and print all the fastqc reports at once ie gives a summary of fastqc reports at once.
-`multiqc .`
+`multiqc .`<br>
 >multiqc needs to be installed.<br>
 ## trimming
 the files anylsed using fastqc provides us with options based on the report wether to analyze further or trim it to maintain better quality.
 we provide fasta file with adaptor content to be removed.<br>
->if your results are satisfying skip this step .
+>if your results are satisfying skip this step .<br>
 `java -jar trimmomatic/trimmomatic-0.39.jar \
     SE \
     -phred33 \
