@@ -25,6 +25,6 @@ alignment refers to the process of comparing and matching sequences of nucleotid
 SAM (Sequence Alignment/Map) and BAM (Binary Alignment/Map) are file formats commonly used in genomics to store aligned sequence data. SAM is a human-readable format, while BAM is its binary equivalent, which is more efficient for storage and processing.<br>
 `samtools view -@ 6 -sb input.sam -o output.bam`<br>
 ### bam to sorted bam
-Optionally, sort the BAM file: If you want to sort the resulting BAM file
+Optionally, sort the BAM file: If you want to sort the resulting BAM file<br>
 `samtools sort output.bam -o output.sorted.bam`<br>
 
