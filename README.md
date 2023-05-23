@@ -18,3 +18,6 @@ we provide fasta file with adaptor content to be removed.<br>
 >if your results are satisfying skip this step .<br>
 `java -jar "trimmomatic_jar" PE -threads 6 "$forward_file" "reverse_file" "$output_forward" /dev/null ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15
 MINLEN:36`<br>
+## Alignment
+alignment refers to the process of comparing and matching sequences of nucleotides or amino acids to identify similarities, differences, and patterns within genomes or specific regions of DNA/RNA.<br>
+`bwa mem -t6 "index_file" "forward_file.gz" "reverse_file.gz" > "output_file.sam"`<br>
