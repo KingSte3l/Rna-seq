@@ -23,6 +23,7 @@ MINLEN:36`<br>
 ## Alignment
 alignment refers to the process of comparing and matching sequences of nucleotides or amino acids to identify similarities, differences, and patterns within genomes or specific regions of DNA/RNA.<br>
 `bwa mem -t6 "index_file" "forward_file.gz" "reverse_file.gz" > "output_file.sam"`<br>
+https://github.com/KingSte3l/Rna-seq/blob/ff40d5a273e39552ff04d616d7b039d213540eb4/alignment.sh<br>
 ## Samtools(conversion)
 ### sam to bam
 SAM (Sequence Alignment/Map) and BAM (Binary Alignment/Map) are file formats commonly used in genomics to store aligned sequence data. SAM is a human-readable format, while BAM is its binary equivalent, which is more efficient for storage and processing.<br>
