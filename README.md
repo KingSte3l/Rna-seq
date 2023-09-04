@@ -35,3 +35,5 @@ A annotation file is necessary normally a GTF file<br>
 primary purpose of featue count is to count the number of sequence reads that align to or overlap with specific genomic features, such as genes, exons, transcripts, or other defined regions of interest.<br>
 
 `featureCounts -a annotation_file.gtf -o counts.txt -T <number_of_threads> sorted1.bam sorted2.bam sorted3.bam ...`<br>
+
+>further analysis is possible using r programming
