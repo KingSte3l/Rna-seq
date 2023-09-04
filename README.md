@@ -12,6 +12,7 @@ content which needs to be trimmed etc.<br>
 multiqc is used to simplify the fastqc report and print all the fastqc reports at once ie gives a summary of fastqc reports at once.<br>
 `multiqc .`<br>
 >multiqc needs to be installed.<br>
+https://github.com/KingSte3l/Rna-seq/blob/627b3a8449fc0e8fe2e9b33c670a89ba5c13294c/fastqc.sh <br>
 ## Trimming
 the files anylsed using fastqc provides us with options based on the report wether to analyze further or trim it to maintain better quality.
 we provide fasta file with adaptor content to be removed.<br>
