@@ -40,4 +40,4 @@ primary purpose of featue count is to count the number of sequence reads that al
 
 >further analysis is possible using r programming.<br>
 
-https://github.com/KingSte3l/Rna-seq/blob/fa2a7fa9cf97e52779a464e08f38a17f89da2619/Deseqnew.R
+https://github.com/KingSte3l/Rna-seq/blob/14ab3c81584e28523ee176923c7cae6fec0dd4b7/Deseqnew.R
