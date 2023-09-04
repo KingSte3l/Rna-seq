@@ -23,9 +23,15 @@ MINLEN:36`<br>
 alignment refers to the process of comparing and matching sequences of nucleotides or amino acids to identify similarities, differences, and patterns within genomes or specific regions of DNA/RNA.<br>
 `bwa mem -t6 "index_file" "forward_file.gz" "reverse_file.gz" > "output_file.sam"`<br>
 ## Samtools(conversion)
+### sam to bam
 SAM (Sequence Alignment/Map) and BAM (Binary Alignment/Map) are file formats commonly used in genomics to store aligned sequence data. SAM is a human-readable format, while BAM is its binary equivalent, which is more efficient for storage and processing.<br>
 `samtools view -@ 6 -sb input.sam -o output.bam`<br>
 ### bam to sorted bam
 Optionally, sort the BAM file: If you want to sort the resulting BAM file<br>
 `samtools sort output.bam -o output.sorted.bam`<br>
+## feature counts
+Subread package is necessary for generating feature counts<br>
+A annotation file is necessary normally a GTF file<br>
+primary purpose of featue count is to count the number of sequence reads that align to or overlap with specific genomic features, such as genes, exons, transcripts, or other defined regions of interest.<br>
 
+`featureCounts -a annotation_file.gtf -o counts.txt -T <number_of_threads> sorted1.bam sorted2.bam sorted3.bam ...`<br>
