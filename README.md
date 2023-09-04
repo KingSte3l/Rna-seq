@@ -36,4 +36,6 @@ primary purpose of featue count is to count the number of sequence reads that al
 
 `featureCounts -a annotation_file.gtf -o counts.txt -T <number_of_threads> sorted1.bam sorted2.bam sorted3.bam ...`<br>
 
->further analysis is possible using r programming
+>further analysis is possible using r programming.<br>
+
+https://github.com/KingSte3l/Rna-seq/blob/fa2a7fa9cf97e52779a464e08f38a17f89da2619/Deseqnew.R
