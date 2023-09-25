@@ -1,4 +1,4 @@
-
+#this is for single end read file
 # Define the input directory containing your FASTQ files
 
 # Define the output directory for the alignment results
